@@ -7,7 +7,7 @@ alias reload-rice-bar='~/.config/hypr/waybar/start'
 alias ls='eza --icons'
 alias ll='eza -al --icons'
 
-export EDITOR=helix
+export EDITOR=nvim
 
 export STARSHIP_CONFIG='~/.config/starship/starship.toml'
 
