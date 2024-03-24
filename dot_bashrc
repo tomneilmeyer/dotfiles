@@ -5,6 +5,9 @@ alias update-rice='~/.config/hypr/manage/update.sh'
 alias reload-rice-bar='~/.config/hypr/waybar/start'
 
 alias ls='eza --icons'
+alias ll='eza -al --icons'
+
+export EDITOR=helix
 
 export STARSHIP_CONFIG='~/.config/starship/starship.toml'
 
