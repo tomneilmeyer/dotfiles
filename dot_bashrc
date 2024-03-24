@@ -1,0 +1,12 @@
+#
+# ~/.bashrc
+#
+alias update-rice='~/.config/hypr/manage/update.sh'
+alias reload-rice-bar='~/.config/hypr/waybar/start'
+
+export STARSHIP_CONFIG='~/.config/starship/starship.toml'
+
+eval "$(starship init bash)"
+source ~/.config/starship/lib/bash.sh
+
+source ~/.config/helix/lib/bash.sh
