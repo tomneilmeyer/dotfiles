@@ -7,6 +7,13 @@ alias reload-rice-bar='~/.config/hypr/waybar/start'
 alias ls='eza --icons'
 alias ll='eza -al --icons'
 
+alias cz='chezmoi'
+alias cza='chezmoi add'
+alias czcd='chezmoi cd'
+alias cze='chezmoi edit'
+alias czea='chezmoi edit --apply'
+alias czra='chezmoi re-add'
+
 export EDITOR=nvim
 
 eval "$(starship init bash)"
