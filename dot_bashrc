@@ -9,9 +9,6 @@ alias ll='eza -al --icons'
 
 export EDITOR=nvim
 
-export STARSHIP_CONFIG='~/.config/starship/starship.toml'
-
 eval "$(starship init bash)"
-source ~/.config/starship/lib/bash.sh
 
 source ~/.config/helix/lib/bash.sh
